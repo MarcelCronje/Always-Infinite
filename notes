@@ -1,0 +1,29 @@
+always-infinite/
+│
+├── mailer/
+│   ├── emailTemplates/
+│   └── mailer.js
+│
+├── node_modules/
+│
+├── public/
+│   ├── assets/
+│   ├── css/
+│   └── js/
+│       └── script.js
+│
+├── src/
+│   ├── views/
+│   │   ├── about.html
+│   │   ├── contact.html
+│   │   └── index.html
+│   │
+│   └── app.js
+│
+├── .env
+├── .gitignore
+├── notes
+├── package.json
+├── package-lock.json
+├── README.md
+└── server.js
