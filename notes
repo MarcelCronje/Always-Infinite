@@ -27,3 +27,52 @@ always-infinite/
 ├── package-lock.json
 ├── README.md
 └── server.js
+
+
+
+
+
+
+
+always-infinite/
+│
+├── mailer/
+│   ├── emailTemplates/
+│   └── mailer.js
+│
+├── node_modules/
+│
+├── public/
+│   ├── assets/
+│   ├── css/
+│   └── js/
+│       └── script.js
+│
+├── src/
+│   ├── app.js                <-- Main Express app logic
+│   ├── renderer.js           <-- Custom view renderer logic (replaces templating engines)
+│   └── views/
+│       ├── layouts/
+│       │   └── main.html     <-- Base layout file (like _Layout.cshtml or Angular shell)
+│       │
+│       ├── components/
+│       │   ├── button.html
+│       │   ├── card.html
+│       │   └── navbar.html
+│       │
+│       ├── sections/
+│       │   ├── hero.html
+│       │   └── footer.html
+│       │
+│       └── pages/
+│           ├── home.html
+│           ├── about.html
+│           └── contact.html
+│
+├── .env
+├── .gitignore
+├── notes/
+├── package.json
+├── package-lock.json
+├── README.md
+└── server.js                <-- (Optional entry point that calls app.js if you like separation)

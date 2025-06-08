@@ -5,6 +5,7 @@
   "description": "This app connects users with service providers. Users can log in and create jobs, which are then sent to service providers. Service providers can submit quotes for the job, and users will be able to view multiple quotes from different providers. The user can choose the quote that best fits their needs, including price and services offered.",
   "main": "index.js",
   "scripts": {
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "nodemailer": "^7.0.3"
   }
