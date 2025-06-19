@@ -1,0 +1,7 @@
+/* public/css/pages/home.css */
+@import url('../globals/variables.css');
+
+.test {
+  color: blue;
+  font-size: var(--font-size-large);
+}

@@ -9,44 +9,40 @@ always-infinite/
 ├── public/
 │   ├── assets/
 │   ├── css/
-│   └── js/
-│       └── script.js
-│
-├── src/
-│   ├── views/
-│   │   ├── about.html
-│   │   ├── contact.html
-│   │   └── index.html
+│   │   ├── globals/
+│   │   │   ├── variables.css
+│   │   │   └── reset.css
+│   │   │
+│   │   ├── components/
+│   │   │   ├── button.css
+│   │   │   ├── card.css
+│   │   │   ├── footer.css
+│   │   │   └── navbar.css
+│   │   │
+│   │   ├── sections/
+│   │   │   └── hero.css
+│   │   │
+│   │   └── pages/
+│   │       ├── home.css
+│   │       ├── about.css
+│   │       └── contact.css
 │   │
-│   └── app.js
-│
-├── .env
-├── .gitignore
-├── notes
-├── package.json
-├── package-lock.json
-├── README.md
-└── server.js
-
-
-
-
-
-
-
-always-infinite/
-│
-├── mailer/
-│   ├── emailTemplates/
-│   └── mailer.js
-│
-├── node_modules/
-│
-├── public/
-│   ├── assets/
-│   ├── css/
 │   └── js/
-│       └── script.js
+│       ├── globals/
+│       │   └── utils.js       ← (Optional) shared JS helpers
+│       │
+│       ├── components/
+│       │   ├── card.js
+│       │   └── navbar.js
+│       │
+│       ├── sections/
+│       │   └── hero.js
+│       │
+│       └── pages/
+│           ├── home.js
+│           ├── about.js
+│           └── contact.js
+│           └── script.js
 │
 ├── src/
 │   ├── app.js                <-- Main Express app logic
@@ -58,21 +54,20 @@ always-infinite/
 │       ├── components/
 │       │   ├── button.html
 │       │   ├── card.html
+│       │   ├── footer.html
 │       │   └── navbar.html
 │       │
 │       ├── sections/
-│       │   ├── hero.html
-│       │   └── footer.html
+│       │   └── hero.html
 │       │
 │       └── pages/
-│           ├── home.html
 │           ├── about.html
-│           └── contact.html
+│           ├── contact.html
+│           └── home.html
 │
 ├── .env
 ├── .gitignore
 ├── notes/
 ├── package.json
 ├── package-lock.json
-├── README.md
-└── server.js                <-- (Optional entry point that calls app.js if you like separation)
+└── README.md
